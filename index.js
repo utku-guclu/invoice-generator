@@ -100,7 +100,7 @@ function reset() {
   render();
 }
 
-invoice.addEventListener("click", reset);
+invoice.addEventListener("dblclick", reset);
 
 function render() {
   total = mowCashStore + washCashStore + pullCashStore;
