@@ -114,3 +114,8 @@ h1 {
 #pull {
     color: var(--white);
 }
+
+#total {
+    font-size: 36px;
+    font-weight: bolder;
+}
